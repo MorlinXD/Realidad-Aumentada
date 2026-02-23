@@ -3,8 +3,10 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RA Murales</title>
-    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
+    <!-- A-Frame PRIMERO -->
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <!-- MindAR DESPUÉS, usando unpkg en vez de jsdelivr -->
+    <script src="https://unpkg.com/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
     <style>
       body { margin: 0; }
       #instructions {
